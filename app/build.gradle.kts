@@ -13,15 +13,15 @@ android {
     compileSdk = 35
 
     defaultConfig {
-        val grindrVersionName = listOf("25.15.0")
-        val grindrVersionCode = listOf(144041)
+        val grindrVersionName = listOf("25.20.0")
+        val grindrVersionCode = listOf(147239)
         val gitCommitHash = getGitCommitHash() ?: "unknown"
 
         applicationId = "com.grindrplus"
         minSdk = 26
         targetSdk = 34
-        versionCode = 14
-        versionName = "4.6.0-${grindrVersionName.let { it.joinToString("_") }}_$gitCommitHash"
+        versionCode = 15
+        versionName = "4.7.0-${grindrVersionName.let { it.joinToString("_") }}_$gitCommitHash"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
